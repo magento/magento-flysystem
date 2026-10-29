@@ -46,6 +46,6 @@
         }
     ],
     "replace": {
-        "league/flysystem": "^2.x"
+        "league/flysystem": "~2.3.2"
     }
 }
