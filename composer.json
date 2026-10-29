@@ -1,5 +1,5 @@
 {
-    "name": "league/flysystem",
+    "name": "magento/magento-flysystem",
     "description": "File storage abstraction for PHP",
     "keywords": [
         "filesystem", "filesystems", "files", "storage", "aws",
@@ -44,5 +44,8 @@
             "name": "Frank de Jonge",
             "email": "info@frankdejonge.nl"
         }
-    ]
+    ],
+    "replace": {
+        "league/flysystem": "^2.x"
+    }
 }
