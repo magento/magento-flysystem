@@ -36,7 +36,8 @@
         "sabre/dav": "^4.1"
     },
     "conflict": {
-        "guzzlehttp/ringphp": "<1.1.1"
+        "guzzlehttp/ringphp": "<1.1.1",
+        "league/flysystem": "*"
     },
     "license": "MIT",
     "authors": [
@@ -45,7 +46,5 @@
             "email": "info@frankdejonge.nl"
         }
     ],
-    "replace": {
-        "league/flysystem": "~2.3.2"
-    }
+    "provide":  { "league/flysystem": "self.version" }
 }
